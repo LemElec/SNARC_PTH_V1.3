@@ -1,0 +1,1484 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<netlist sketch="Tool Lockout v1.3.fzz" date="Tue 20. Aug 19:28:42 2013">
+ <net>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 3 pins" id="739460" label="Vio"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 3 pins" id="739461" label="Vio"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 4 pins" id="1725390" label="D7 D8"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 4 pins" id="1725391" label="D7 D8"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="625030" label="C3"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="625031" label="C3"/>
+  </connector>
+  <connector id="connector1" name="GND">
+   <part title="Voltage Regulator - 5V" id="624971" label="+5Vreg"/>
+  </connector>
+  <connector id="connector1" name="GND">
+   <part title="Voltage Regulator - 5V" id="624970" label="+5Vreg"/>
+  </connector>
+  <connector id="connector0" name="-">
+   <part title="Electrolytic Capacitor" id="924751" label="C8"/>
+  </connector>
+  <connector id="connector0" name="-">
+   <part title="Electrolytic Capacitor" id="924750" label="C8"/>
+  </connector>
+  <connector id="connector1" name="GND">
+   <part title="Voltage Regulator - 3.3V" id="624991" label="+3.3Vreg"/>
+  </connector>
+  <connector id="connector1" name="GND">
+   <part title="Voltage Regulator - 3.3V" id="624990" label="+3.3Vreg"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="625011" label="C2"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="625010" label="C2"/>
+  </connector>
+  <connector id="connector3" name="GND">
+   <part title="Mystery Part - 6 pins" id="627521" label="ICSP"/>
+  </connector>
+  <connector id="connector3" name="GND">
+   <part title="Mystery Part - 6 pins" id="627520" label="ICSP"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="628471" label="C4"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="628470" label="C4"/>
+  </connector>
+  <connector id="connector1" name="GND">
+   <part title="WIZ820io" id="623731" label="Ethernet"/>
+  </connector>
+  <connector id="connector1" name="GND">
+   <part title="WIZ820io" id="623730" label="Ethernet"/>
+  </connector>
+  <connector id="connector21" name="Pin 22">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector21" name="Pin 22">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="623821" label="C1"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="623820" label="C1"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 2 pins" id="972321" label="E-Stop"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 2 pins" id="972320" label="E-Stop"/>
+  </connector>
+  <connector id="connector1" name="GND">
+   <part title="Resonator" id="765681" label="16MHz"/>
+  </connector>
+  <connector id="connector1" name="GND">
+   <part title="Resonator" id="765680" label="16MHz"/>
+  </connector>
+  <connector id="connector3" name="Pin 4">
+   <part title="Pushbutton" id="631701" label="Reset"/>
+  </connector>
+  <connector id="connector3" name="Pin 4">
+   <part title="Pushbutton" id="631700" label="Reset"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 6 pins" id="1541431" label="FTDI"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 6 pins" id="1541430" label="FTDI"/>
+  </connector>
+  <connector id="connector23" name="GND">
+   <part title="WIZ820io" id="623731" label="Ethernet"/>
+  </connector>
+  <connector id="connector23" name="GND">
+   <part title="WIZ820io" id="623730" label="Ethernet"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="WIZ820io" id="623731" label="Ethernet"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="WIZ820io" id="623730" label="Ethernet"/>
+  </connector>
+  <connector id="connector7" name="Pin 8">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector7" name="Pin 8">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector2" name="Pin 3">
+   <part title="Pushbutton" id="631701" label="Reset"/>
+  </connector>
+  <connector id="connector2" name="Pin 3">
+   <part title="Pushbutton" id="631700" label="Reset"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="10k Ω Resistor" id="626781" label="R1"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="10k Ω Resistor" id="626780" label="R1"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part title="Green LED - 3mm" id="635931" label="GRN_D6"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part title="Green LED - 3mm" id="635930" label="GRN_D6"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="1360831" label="C7"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="1360830" label="C7"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="1050551" label="C6"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="1050550" label="C6"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Power plug" id="623760" label="Vcc Ctr Pos"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Power plug" id="623761" label="Vcc Ctr Pos"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 4 pins" id="733030" label="RFID"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 4 pins" id="733031" label="RFID"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part title="Red LED - 3mm" id="635881" label="RED_D5"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part title="Red LED - 3mm" id="635880" label="RED_D5"/>
+  </connector>
+  <connector id="connector2" name="source">
+   <part title="Basic FET N-Channel" id="626621" label="N-Chnl FET (D4)"/>
+  </connector>
+  <connector id="connector2" name="source">
+   <part title="Basic FET N-Channel" id="626620" label="N-Chnl FET (D4)"/>
+  </connector>
+  <connector id="connector2" name="GND">
+   <part title="Power plug" id="623760" label="Vcc Ctr Pos"/>
+  </connector>
+  <connector id="connector2" name="GND">
+   <part title="Power plug" id="623761" label="Vcc Ctr Pos"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1363170" label="Via8"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1363171" label="Via8"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="2121000" label="Via21"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="2121001" label="Via21"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="pin2">
+   <part title="Screw terminal - 2 pins" id="2111481" label="MoSFET Output (D4)"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Screw terminal - 2 pins" id="2111480" label="MoSFET Output (D4)"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part title="Rectifier Diode" id="634491" label="D1"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part title="Rectifier Diode" id="634490" label="D1"/>
+  </connector>
+  <connector id="connector1" name="drain">
+   <part title="Basic FET N-Channel" id="626621" label="N-Chnl FET (D4)"/>
+  </connector>
+  <connector id="connector1" name="drain">
+   <part title="Basic FET N-Channel" id="626620" label="N-Chnl FET (D4)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="pin3">
+   <part title="Generic male header - 4 pins" id="1725391" label="D7 D8"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic male header - 4 pins" id="1725390" label="D7 D8"/>
+  </connector>
+  <connector id="connector12" name="Pin 13">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector12" name="Pin 13">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic male header - 3 pins" id="2245951" label="EN_Rst"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic male header - 3 pins" id="2245950" label="EN_Rst"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1701090" label="Via16"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1701091" label="Via16"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5" name="nINT">
+   <part title="WIZ820io" id="623731" label="Ethernet"/>
+  </connector>
+  <connector id="connector5" name="nINT">
+   <part title="WIZ820io" id="623730" label="Ethernet"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="635240" label="Via2"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="635241" label="Via2"/>
+  </connector>
+  <connector id="connector4" name="Pin 5">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector4" name="Pin 5">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="cathode">
+   <part title="Rectifier Diode" id="1015480" label="D2"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part title="Rectifier Diode" id="1015481" label="D2"/>
+  </connector>
+  <connector id="connector0" name="input voltage">
+   <part title="Voltage Regulator - 5V" id="624970" label="+5Vreg"/>
+  </connector>
+  <connector id="connector0" name="input voltage">
+   <part title="Voltage Regulator - 5V" id="624971" label="+5Vreg"/>
+  </connector>
+  <connector id="connector1" name="+">
+   <part title="Electrolytic Capacitor" id="924751" label="C8"/>
+  </connector>
+  <connector id="connector1" name="+">
+   <part title="Electrolytic Capacitor" id="924750" label="C8"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="1360831" label="C7"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="1360830" label="C7"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="1050551" label="C6"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="1050550" label="C6"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part title="Rectifier Diode" id="634490" label="D1"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part title="Rectifier Diode" id="634491" label="D1"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Screw terminal - 2 pins" id="2111480" label="MoSFET Output (D4)"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Screw terminal - 2 pins" id="2111481" label="MoSFET Output (D4)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="Pin 2">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector1" name="Pin 2">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 4 pins" id="733030" label="RFID"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 4 pins" id="733031" label="RFID"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part title="Generic male header - 6 pins" id="1541430" label="FTDI"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part title="Generic male header - 6 pins" id="1541431" label="FTDI"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="via">
+   <part title="Via" id="2038200" label="Via20"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="2038201" label="Via20"/>
+  </connector>
+  <connector id="connector4" name="MOSI">
+   <part title="Mystery Part - 6 pins" id="627520" label="ICSP"/>
+  </connector>
+  <connector id="connector4" name="MOSI">
+   <part title="Mystery Part - 6 pins" id="627521" label="ICSP"/>
+  </connector>
+  <connector id="connector16" name="Pin 17">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector16" name="Pin 17">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector2" name="MOSI">
+   <part title="WIZ820io" id="623731" label="Ethernet"/>
+  </connector>
+  <connector id="connector2" name="MOSI">
+   <part title="WIZ820io" id="623730" label="Ethernet"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="MISO">
+   <part title="Mystery Part - 6 pins" id="627520" label="ICSP"/>
+  </connector>
+  <connector id="connector0" name="MISO">
+   <part title="Mystery Part - 6 pins" id="627521" label="ICSP"/>
+  </connector>
+  <connector id="connector18" name="MISO">
+   <part title="WIZ820io" id="623730" label="Ethernet"/>
+  </connector>
+  <connector id="connector18" name="MISO">
+   <part title="WIZ820io" id="623731" label="Ethernet"/>
+  </connector>
+  <connector id="connector17" name="Pin 18">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector17" name="Pin 18">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="via">
+   <part title="Via" id="639320" label="Via4"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="639321" label="Via4"/>
+  </connector>
+  <connector id="connector3" name="Pin 4">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector3" name="Pin 4">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 2 pins" id="972321" label="E-Stop"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 2 pins" id="972320" label="E-Stop"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5" name="Pin 6">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector5" name="Pin 6">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1424300" label="Via12"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1424301" label="Via12"/>
+  </connector>
+  <connector id="connector0" name="gate">
+   <part title="Basic FET N-Channel" id="626621" label="N-Chnl FET (D4)"/>
+  </connector>
+  <connector id="connector0" name="gate">
+   <part title="Basic FET N-Channel" id="626620" label="N-Chnl FET (D4)"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="10k Ω Resistor" id="626781" label="R1"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="10k Ω Resistor" id="626780" label="R1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1700460" label="Via15"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1700461" label="Via15"/>
+  </connector>
+  <connector id="connector14" name="Pin 15">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector14" name="Pin 15">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector20" name="PWDN">
+   <part title="WIZ820io" id="623730" label="Ethernet"/>
+  </connector>
+  <connector id="connector20" name="PWDN">
+   <part title="WIZ820io" id="623731" label="Ethernet"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="SCLK">
+   <part title="WIZ820io" id="623730" label="Ethernet"/>
+  </connector>
+  <connector id="connector3" name="SCLK">
+   <part title="WIZ820io" id="623731" label="Ethernet"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="630010" label="Via1"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="630011" label="Via1"/>
+  </connector>
+  <connector id="connector18" name="Pin 19">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector18" name="Pin 19">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector1" name="SCLK">
+   <part title="Mystery Part - 6 pins" id="627521" label="ICSP"/>
+  </connector>
+  <connector id="connector1" name="SCLK">
+   <part title="Mystery Part - 6 pins" id="627520" label="ICSP"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="via">
+   <part title="Via" id="684000" label="Via6"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="684001" label="Via6"/>
+  </connector>
+  <connector id="connector19" name="nRESET">
+   <part title="WIZ820io" id="623730" label="Ethernet"/>
+  </connector>
+  <connector id="connector19" name="nRESET">
+   <part title="WIZ820io" id="623731" label="Ethernet"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 3 pins" id="2245951" label="EN_Rst"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 3 pins" id="2245950" label="EN_Rst"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 4 pins" id="1725390" label="D7 D8"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 4 pins" id="1725391" label="D7 D8"/>
+  </connector>
+  <connector id="connector13" name="Pin 14">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector13" name="Pin 14">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1701120" label="Via17"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1701121" label="Via17"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="anode">
+   <part title="Green LED - 3mm" id="635930" label="GRN_D6"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part title="Green LED - 3mm" id="635931" label="GRN_D6"/>
+  </connector>
+  <connector id="connector11" name="Pin 12">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector11" name="Pin 12">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="anode">
+   <part title="Red LED - 3mm" id="635880" label="RED_D5"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part title="Red LED - 3mm" id="635881" label="RED_D5"/>
+  </connector>
+  <connector id="connector10" name="Pin 11">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector10" name="Pin 11">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="625010" label="C2"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="625011" label="C2"/>
+  </connector>
+  <connector id="connector2" name="output voltage">
+   <part title="Voltage Regulator - 3.3V" id="624990" label="+3.3Vreg"/>
+  </connector>
+  <connector id="connector2" name="output voltage">
+   <part title="Voltage Regulator - 3.3V" id="624991" label="+3.3Vreg"/>
+  </connector>
+  <connector id="connector21" name="VIN">
+   <part title="WIZ820io" id="623731" label="Ethernet"/>
+  </connector>
+  <connector id="connector21" name="VIN">
+   <part title="WIZ820io" id="623730" label="Ethernet"/>
+  </connector>
+  <connector id="connector22" name="VIN">
+   <part title="WIZ820io" id="623730" label="Ethernet"/>
+  </connector>
+  <connector id="connector22" name="VIN">
+   <part title="WIZ820io" id="623731" label="Ethernet"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic male header - 3 pins" id="739460" label="Vio"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic male header - 3 pins" id="739461" label="Vio"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6" name="Pin 7">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector6" name="Pin 7">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector19" name="Pin 20">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector19" name="Pin 20">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="623821" label="C1"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="623820" label="C1"/>
+  </connector>
+  <connector id="connector2" name="output voltage">
+   <part title="Voltage Regulator - 5V" id="624970" label="+5Vreg"/>
+  </connector>
+  <connector id="connector2" name="output voltage">
+   <part title="Voltage Regulator - 5V" id="624971" label="+5Vreg"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="628471" label="C4"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="628470" label="C4"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="625030" label="C3"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="625031" label="C3"/>
+  </connector>
+  <connector id="connector0" name="input voltage">
+   <part title="Voltage Regulator - 3.3V" id="624991" label="+3.3Vreg"/>
+  </connector>
+  <connector id="connector0" name="input voltage">
+   <part title="Voltage Regulator - 3.3V" id="624990" label="+3.3Vreg"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="10k Ω Resistor" id="1413501" label="R3"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="10k Ω Resistor" id="1413500" label="R3"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part title="Generic male header - 4 pins" id="1725391" label="D7 D8"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part title="Generic male header - 4 pins" id="1725390" label="D7 D8"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part title="Generic male header - 4 pins" id="733031" label="RFID"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part title="Generic male header - 4 pins" id="733030" label="RFID"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic male header - 6 pins" id="1541431" label="FTDI"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic male header - 6 pins" id="1541430" label="FTDI"/>
+  </connector>
+  <connector id="connector5" name="+5V">
+   <part title="Mystery Part - 6 pins" id="627521" label="ICSP"/>
+  </connector>
+  <connector id="connector5" name="+5V">
+   <part title="Mystery Part - 6 pins" id="627520" label="ICSP"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 3 pins" id="739461" label="Vio"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 3 pins" id="739460" label="Vio"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="1413181" label="C5"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="1413180" label="C5"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="10k Ω Resistor" id="1413500" label="R3"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="10k Ω Resistor" id="1413501" label="R3"/>
+  </connector>
+  <connector id="connector5" name="pin6">
+   <part title="Generic male header - 6 pins" id="1541431" label="FTDI"/>
+  </connector>
+  <connector id="connector5" name="pin6">
+   <part title="Generic male header - 6 pins" id="1541430" label="FTDI"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="Pin 0">
+   <part title="1M Ω Resistor" id="639500" label="R2"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="1M Ω Resistor" id="639501" label="R2"/>
+  </connector>
+  <connector id="connector8" name="Pin 9">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector8" name="Pin 9">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Resonator" id="765681" label="16MHz"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Resonator" id="765680" label="16MHz"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector27" name="Pin 28">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector27" name="Pin 28">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector6" name="pin7">
+   <part title="Generic male header - 7 pins" id="1570650" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+  <connector id="connector6" name="pin7">
+   <part title="Generic male header - 7 pins" id="1570651" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector26" name="Pin 27">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector26" name="Pin 27">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector5" name="pin6">
+   <part title="Generic male header - 7 pins" id="1570650" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+  <connector id="connector5" name="pin6">
+   <part title="Generic male header - 7 pins" id="1570651" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="Pin 3">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector2" name="Pin 3">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic male header - 4 pins" id="733030" label="RFID"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic male header - 4 pins" id="733031" label="RFID"/>
+  </connector>
+  <connector id="connector4" name="pin5">
+   <part title="Generic male header - 6 pins" id="1541431" label="FTDI"/>
+  </connector>
+  <connector id="connector4" name="pin5">
+   <part title="Generic male header - 6 pins" id="1541430" label="FTDI"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector25" name="Pin 26">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector25" name="Pin 26">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector4" name="pin5">
+   <part title="Generic male header - 7 pins" id="1570650" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+  <connector id="connector4" name="pin5">
+   <part title="Generic male header - 7 pins" id="1570651" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector24" name="Pin 25">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector24" name="Pin 25">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part title="Generic male header - 7 pins" id="1570650" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part title="Generic male header - 7 pins" id="1570651" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23" name="Pin 24">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector23" name="Pin 24">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic male header - 7 pins" id="1570650" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic male header - 7 pins" id="1570651" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22" name="Pin 23">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector22" name="Pin 23">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 7 pins" id="1570650" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 7 pins" id="1570651" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20" name="Pin 21">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector20" name="Pin 21">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 7 pins" id="1570650" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 7 pins" id="1570651" label="AREF A0 A1 A2 A3 A4 A5"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="pin 1">
+   <part title="Resonator" id="765680" label="16MHz"/>
+  </connector>
+  <connector id="connector2" name="pin 1">
+   <part title="Resonator" id="765681" label="16MHz"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="1M Ω Resistor" id="639501" label="R2"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="1M Ω Resistor" id="639500" label="R2"/>
+  </connector>
+  <connector id="connector9" name="Pin 10">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector9" name="Pin 10">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15" name="Pin 16">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector15" name="Pin 16">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector4" name="nSS">
+   <part title="WIZ820io" id="623730" label="Ethernet"/>
+  </connector>
+  <connector id="connector4" name="nSS">
+   <part title="WIZ820io" id="623731" label="Ethernet"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 3 pins" id="2245950" label="EN_Rst"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic male header - 3 pins" id="2245951" label="EN_Rst"/>
+  </connector>
+  <connector id="connector2" name="Reset">
+   <part title="Mystery Part - 6 pins" id="627521" label="ICSP"/>
+  </connector>
+  <connector id="connector2" name="Reset">
+   <part title="Mystery Part - 6 pins" id="627520" label="ICSP"/>
+  </connector>
+  <connector id="connector0" name="Pin 1">
+   <part title="atmega168" id="623791" label="Atmega328p"/>
+  </connector>
+  <connector id="connector0" name="Pin 1">
+   <part title="atmega168" id="623790" label="Atmega328p"/>
+  </connector>
+  <connector id="connector1" name="Pin 2">
+   <part title="Pushbutton" id="631701" label="Reset"/>
+  </connector>
+  <connector id="connector1" name="Pin 2">
+   <part title="Pushbutton" id="631700" label="Reset"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="1413181" label="C5"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="1413180" label="C5"/>
+  </connector>
+  <connector id="connector0" name="Pin 1">
+   <part title="Pushbutton" id="631701" label="Reset"/>
+  </connector>
+  <connector id="connector0" name="Pin 1">
+   <part title="Pushbutton" id="631700" label="Reset"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="via">
+   <part title="Via" id="2203520" label="Via22"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="2203521" label="Via22"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1721040" label="Via18"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1721041" label="Via18"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1363200" label="Via9"/>
+  </connector>
+  <connector id="connector0" name="via">
+   <part title="Via" id="1363201" label="Via9"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="anode">
+   <part title="Rectifier Diode" id="1015480" label="D2"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part title="Rectifier Diode" id="1015481" label="D2"/>
+  </connector>
+  <connector id="connector1" name="VCC">
+   <part title="Power plug" id="623761" label="Vcc Ctr Pos"/>
+  </connector>
+  <connector id="connector1" name="VCC">
+   <part title="Power plug" id="623760" label="Vcc Ctr Pos"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 6 pins" id="1541430" label="FTDI"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic male header - 6 pins" id="1541431" label="FTDI"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2300070" label="Copper Fill122"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2300060" label="Copper Fill121"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2300050" label="Copper Fill120"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2300040" label="Copper Fill119"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2300030" label="Copper Fill118"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2300020" label="Copper Fill117"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2300010" label="Copper Fill116"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2300000" label="Copper Fill115"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299990" label="Copper Fill114"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299980" label="Copper Fill113"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299970" label="Copper Fill112"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299960" label="Copper Fill111"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299950" label="Copper Fill110"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299940" label="Copper Fill109"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299930" label="Copper Fill108"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299920" label="Copper Fill107"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299910" label="Copper Fill106"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299900" label="Copper Fill105"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299890" label="Copper Fill104"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299880" label="Copper Fill103"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299870" label="Copper Fill102"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299860" label="Copper Fill101"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299850" label="Copper Fill100"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299840" label="Copper Fill99"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299830" label="Copper Fill98"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299820" label="Copper Fill97"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299810" label="Copper Fill96"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299800" label="Copper Fill95"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299790" label="Copper Fill94"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299780" label="Copper Fill93"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299770" label="Copper Fill92"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299760" label="Copper Fill91"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299750" label="Copper Fill90"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299740" label="Copper Fill89"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299730" label="Copper Fill88"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299720" label="Copper Fill87"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299710" label="Copper Fill86"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299700" label="Copper Fill85"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299690" label="Copper Fill84"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299680" label="Copper Fill83"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299670" label="Copper Fill82"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299660" label="Copper Fill81"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299650" label="Copper Fill80"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299640" label="Copper Fill79"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299630" label="Copper Fill78"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299620" label="Copper Fill77"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299610" label="Copper Fill76"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299600" label="Copper Fill75"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299590" label="Copper Fill74"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299570" label="Copper Fill72"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299550" label="Copper Fill70"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299510" label="Copper Fill66"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299500" label="Copper Fill65"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299490" label="Copper Fill64"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299480" label="Copper Fill63"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299470" label="Copper Fill62"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299460" label="Copper Fill61"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299450" label="Copper Fill60"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299440" label="Copper Fill59"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299430" label="Copper Fill58"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299420" label="Copper Fill57"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299410" label="Copper Fill56"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299400" label="Copper Fill55"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299390" label="Copper Fill54"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299380" label="Copper Fill53"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299370" label="Copper Fill52"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299360" label="Copper Fill51"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299350" label="Copper Fill50"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299340" label="Copper Fill49"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299330" label="Copper Fill48"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299320" label="Copper Fill47"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299310" label="Copper Fill46"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299300" label="Copper Fill45"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299290" label="Copper Fill44"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299280" label="Copper Fill43"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299270" label="Copper Fill42"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299260" label="Copper Fill41"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299250" label="Copper Fill40"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299240" label="Copper Fill39"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299230" label="Copper Fill38"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299220" label="Copper Fill37"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299210" label="Copper Fill36"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299200" label="Copper Fill35"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299190" label="Copper Fill34"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299180" label="Copper Fill33"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299170" label="Copper Fill32"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299160" label="Copper Fill31"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299150" label="Copper Fill30"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299140" label="Copper Fill29"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299130" label="Copper Fill28"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299120" label="Copper Fill27"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299110" label="Copper Fill26"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299100" label="Copper Fill25"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299090" label="Copper Fill24"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299080" label="Copper Fill23"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299070" label="Copper Fill22"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299060" label="Copper Fill21"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299050" label="Copper Fill20"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299040" label="Copper Fill19"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299030" label="Copper Fill18"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299020" label="Copper Fill17"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299010" label="Copper Fill16"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2299000" label="Copper Fill15"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2298990" label="Copper Fill14"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2298980" label="Copper Fill13"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2298970" label="Copper Fill12"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2298960" label="Copper Fill11"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2298950" label="Copper Fill10"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2298940" label="Copper Fill9"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2298930" label="Copper Fill8"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2298900" label="Copper Fill5"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2298890" label="Copper Fill4"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2298880" label="Copper Fill3"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="connector0">
+   <part title="Copper Fill" id="2298870" label="Copper Fill2"/>
+  </connector>
+ </net>
+</netlist>
