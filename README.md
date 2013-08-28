@@ -1,7 +1,7 @@
 SNARC_PTH_V1.3
 ==============
 
-Please see https://github.com/davidbuzz/snarc for the demo firmware and software
+Please see https://github.com/LemElec/SNARC_Demo_Code for the demo firmware and software
 
 The SNARC is a board developed by me, Lawrence “Lemming” Dixon, originally for HSBNE but now I am offering it to other people or groups who are interested in a cheap and easy to implement RFID based access control system.
 
